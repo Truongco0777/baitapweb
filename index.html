@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Homestay Nông Thôn</title>
+    <!-- Nối tới file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">Homestay Nông Thôn</div>
+        <nav class="nav">
+            <a href="index.html">Trang chủ</a>
+            <a href="#homestay-list">Homestay</a>
+            <a href="#review">Đánh giá</a>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <section class="banner">
+        <h1>Trải nghiệm homestay giữa thiên nhiên</h1>
+        <p>Không gian yên bình, gần gũi làng quê Việt Nam.</p>
+    </section>
+
+    <!-- FILTER -->
+    <section class="filter">
+        <h2>Lọc homestay</h2>
+        <form>
+            <label>Khoảng giá:
+                <select>
+                    <option>Tất cả</option>
+                    <option>Dưới 500.000đ</option>
+                    <option>500.000đ - 1.000.000đ</option>
+                    <option>Trên 1.000.000đ</option>
+                </select>
+            </label>
+
+            <label>Khu vực:
+                <select>
+                    <option>Tất cả</option>
+                    <option>Ninh Bình</option>
+                    <option>Sa Pa</option>
+                    <option>Đà Lạt</option>
+                </select>
+            </label>
+        </form>
+    </section>
+
+    <!-- DANH SÁCH HOMESTAY -->
+    <section class="homestay-list" id="homestay-list">
+        <h2>Danh sách homestay</h2>
+
+        <div class="card">
+            <img src="photo/homestay-mai-la.jpg" alt="Homestay 1">
+            <h3>Homestay Vườn Xanh</h3>
+            <p>Vị trí: Ninh Bình</p>
+            <p>Giá từ: 600.000đ/đêm</p>
+            <a href="#" class="btn">Xem chi tiết</a>
+        </div>
+
+        <div class="card">
+            <img src="photo/nha-homestay-mini2098.png" alt="Homestay 2">
+            <h3>Homestay Nhà Gỗ</h3>
+            <p>Vị trí: Sa Pa</p>
+            <p>Giá từ: 800.000đ/đêm</p>
+            <a href="#" class="btn">Xem chi tiết</a>
+        </div>
+
+        <div class="card">
+            <img src="photo/Unknown.jpeg" alt="Homestay 3">
+            <h3>Homestay Đồng Quê</h3>
+            <p>Vị trí: Ngoại thành Hà Nội</p>
+            <p>Giá từ: 550.000đ/đêm</p>
+            <a href="#" class="btn">Xem chi tiết</a>
+        </div>
+    </section>
+
+    <!-- ĐÁNH GIÁ -->
+    <section class="review" id="review">
+        <h2>Đánh giá của khách</h2>
+        <div class="review-item">
+            <h3>Ngọc Anh</h3>
+            <p>"Không khí trong lành, chủ nhà thân thiện, đồ ăn ngon."</p>
+        </div>
+        <div class="review-item">
+            <h3>Minh Tú</h3>
+            <p>"Phòng sạch sẽ, view cánh đồng rất đẹp, sẽ quay lại."</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2024 - Website quảng bá homestay nông thôn</p>
+    </footer>
+</body>
+</html>
